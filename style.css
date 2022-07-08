@@ -1,0 +1,7 @@
+body { padding: 0px; margin: 0px; 
+      font-size: large;
+      text-align: left;
+}
+      .v-box { width: 100%; height: 500px; margin: 0px auto; position: relative;}
+      video { position: absolute; top: 0; left: 0; width: 100%; height: 150%;}
+      .v-text { position: absolute; top: 100%; width: 100%;  }
