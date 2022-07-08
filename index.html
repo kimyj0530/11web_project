@@ -8,9 +8,14 @@
   </head>
   <body>
     <div class="v-box">
-		  <video src="video/nootnoot.mp4" id="v" onclick="playVideo(), count('plus')"></video>
+		  <video src="video/nootnoot.mp4" id="v" id="textId" onclick="playVideo(), count('plus')"></video>
       <div class="v-text">
-        <div id="result">0</div>
+          <form>
+            <button id="rset" onclick="reset()" class="button" >reset</button>
+
+            <div id="result">0</div>
+          </form>
+        
       </div>
       
     </div>
